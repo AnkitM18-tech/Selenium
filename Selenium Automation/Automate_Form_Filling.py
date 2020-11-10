@@ -26,16 +26,16 @@ lastname=driver.find_element_by_name("last_name")
 lastname.send_keys("Nautiyal")
 
 username=driver.find_element_by_name("user_login")
-username.send_keys("Mofo")
+username.send_keys("Mojo")
 
 email=driver.find_element_by_name("email")
 email.send_keys("support@rifinder.com")
 
 password=driver.find_element_by_name("password")
-password.send_keys("madafaka")
+password.send_keys("kakhagagha")
 
 confirm_password=driver.find_element_by_name("password_confirmation")
-confirm_password.send_keys("madafaka")
+confirm_password.send_keys("kakhagagha")
 
 time.sleep(1)
 register_button=driver.find_element_by_class_name("tutor-button")
