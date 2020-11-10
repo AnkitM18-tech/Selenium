@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common import exceptions
 from time import sleep
-import Password
+import Password                 #make a Password.py file from which you want to retrieve the username and password
 
 class twitter_bot:
     def __init__(self,username,password):
